@@ -31,7 +31,6 @@ print("\nEncryption Successful!")
 print("Encrypted data saved as 'encrypted_data.txt'")
 print("Key saved as 'secret.key'")
 
-!ls
 
 from cryptography.fernet import Fernet
 
