@@ -9,6 +9,9 @@ Original file is located at
 
 from cryptography.fernet import Fernet
 
+import os
+print(os.listdir("DRONE_STORAGE"))
+
 # Step 1: Generate encryption key
 key = Fernet.generate_key()
 
